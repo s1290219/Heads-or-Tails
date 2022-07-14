@@ -31,8 +31,8 @@ printf("Round %d: Tails\n",i);
 
 printf("Heads: %d, Tails: %d\n",h,3-h);
   
-  if(h > 3-h) printf("You won!\n");
-  else printf("You lost...\n");
+  if(h > 3-h) printf("%s won!\n",str);
+  else printf("%s lost...\n",str);
 
 return 0;
 }
